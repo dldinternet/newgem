@@ -9,6 +9,7 @@ PATH
   remote: .
   specs:
     newgem (1.5.3)
+      i18n
 
 GEM
   remote: https://rubygems.org/
@@ -39,7 +40,6 @@ DEPENDENCIES
   bundler (~> 1.3)
   cucumber
   hoe
-  i18n
   newgem!
   rake
   rubigen (~> 1.5.8)!
