@@ -2,7 +2,7 @@
 require 'rubygems'
 gem 'hoe', '>= 2.3.0'
 require 'hoe'
-%w[fileutils rubigen rubigen/version].each { |f| require f }
+%w[fileutils rubigen rubyforge].each { |f| require f }
 $:.unshift(File.dirname(__FILE__) + "/lib")
 
 require 'newgem/version'
@@ -22,7 +22,8 @@ $hoe = Hoe.spec 'newgem' do
     ['rubigen',">= #{RubiGen::VERSION}"],
     ['hoe', ">= #{Hoe::VERSION}"],
     ['RedCloth','>= 4.1.1'], # for website generation
-    ['syntax','>= 1.0.0']
+    ['syntax','>= 1.0.0'],
+    ['rubyforge', ">= #{RubyForge::VERSION}"]
   ]
   extra_dev_deps << ['cucumber', ">= 0.3.11"]
 end

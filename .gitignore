@@ -23,4 +23,4 @@ test/version_tmp
 tmp
 vendor/ruby
 atlassian-ide-plugin.xml
-vendor/cache/rubigen-cac*
+vendor/cache/rubigen-*

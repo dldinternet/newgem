@@ -20,10 +20,11 @@ Within this gem, you get one thing - <code>newgem</code> - an executable to crea
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.add_dependency 'i18n'
+  spec.add_dependency 'rubyforge'
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "hoe"
   spec.add_development_dependency 'cucumber'
   #spec.add_dependency 'rubigen', "~> 1.5.8" Put back in once rubigen vendor updates
-  spec.add_dependency 'i18n'
 end
