@@ -1,3 +1,5 @@
+# Intellij IDEA project files
+.idea
 pkg
 doc
 .DS_Store
@@ -20,3 +22,5 @@ test/tmp
 test/version_tmp
 tmp
 vendor/ruby
+atlassian-ide-plugin.xml
+vendor/cache/rubigen-cac*

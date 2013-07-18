@@ -6,8 +6,8 @@ require 'newgem/version'
 Gem::Specification.new do |spec|
   spec.name          = "newgem"
   spec.version       = Newgem::VERSION
-  spec.authors       = ["Christo DeLange"]
-  spec.email         = ["github@dldinternet.com"]
+  spec.authors       = ["Dr Nic Williams"]
+  spec.email         = ["drnicwilliams@gmail.com"]
   spec.description   = %q{Quickly bundle any Ruby libraries into a RubyGem and share it with the world, your colleagues, or perhaps just with yourself amongst your projects.}
   spec.summary       = %q{RubyGems are centrally stored, versioned, and support dependencies between other gems, so they are the ultimate way to bundle libraries, executables, associated tests, examples, and more.
 
@@ -22,4 +22,8 @@ Within this gem, you get one thing - <code>newgem</code> - an executable to crea
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "hoe"
+  #spec.add_development_dependency 'rubigen', "~> 1.5.8"
+  spec.add_development_dependency 'i18n'
+  spec.add_development_dependency 'cucumber'
 end

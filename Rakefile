@@ -1,9 +1,11 @@
-require "bundler/gem_tasks"
+#require "bundler/gem_tasks"
 require 'rubygems'
 gem 'hoe', '>= 2.3.0'
 require 'hoe'
-%w[fileutils rubigen].each { |f| require f }
+%w[fileutils rubigen rubigen/version].each { |f| require f }
 $:.unshift(File.dirname(__FILE__) + "/lib")
+
+require 'newgem/version'
 
 Hoe.plugin :newgem
 Hoe.plugin :git

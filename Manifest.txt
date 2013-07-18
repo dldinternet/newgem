@@ -50,6 +50,7 @@ lib/newgem.rb
 lib/newgem/quick_template.rb
 lib/newgem/rubyforge-ext.rb
 lib/newgem/tasks.rb
+lib/newgem/version.rb
 newgem_generators/install_website/USAGE
 newgem_generators/install_website/install_website_generator.rb
 newgem_generators/install_website/templates/config/website.yml.sample.erb
